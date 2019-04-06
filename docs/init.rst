@@ -13,8 +13,10 @@ Amplify start
 A way to start
 --------------
 
-For this app I had an AppSync app::
+For this app I had an expo app::
 
-   amplify init
+   expo init
+   cd new-project
+
    amplify add codegen --apiId qdch4h72fzfivfzqkbvgrgdfu4
    amplify codegen
