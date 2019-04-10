@@ -1,29 +1,26 @@
 {
-  "name": "Recipes",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "fuck",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject",
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
-  },
-  "jest": {
-    "preset": "jest-expo"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
-    "@expo/samples": "2.1.1",
-    "aws-amplify": "^1.1.23",
-    "expo": "^32.0.0",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
     "native-base": "^2.12.1",
-    "react": "^16.8.3",
-    "react-native": "^0.59.3",
-    "react-native-vector-icons": "^6.4.1",
-    "react-navigation": "^3.0.9"
+    "react-navigation": "^3.6.1"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
-    "jest-expo": "^32.0.0"
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
   },
-  "private": true
+  "jest": {
+    "preset": "react-native"
+  }
 }
